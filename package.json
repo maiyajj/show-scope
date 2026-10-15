@@ -1,0 +1,25 @@
+{
+  "name": "show-scope",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Visualization skills for Qoder: archify (precise SVG diagrams) + answer-me-with-html (visual explainers) + show-scope (hybrid orchestration).",
+  "license": "MIT",
+  "bin": {
+    "show-scope": "./bin/setup.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "qoder",
+    "skills",
+    "visualization",
+    "architecture",
+    "diagram",
+    "archify"
+  ]
+}
